@@ -1,0 +1,75 @@
+*{
+	margin:0;
+	padding:0;
+}
+a{text-decoration: none;}
+
+
+.menu-bar{text-align:center; 
+height: 70px;
+background:#146BDF 
+; 
+line-height: 70px
+
+
+}
+.menu-bar ul li    {display: inline-block;
+
+}
+.menu-bar ul li a{ font-size: 18px;
+
+                   color:black;
+                    font:weight:600;
+                    margin:0px 10px; 
+                    transition: 0.5s
+
+
+ }
+.menu-bar ul li a:hover{
+	       color: red;
+           font-size:20px 
+
+}
+
+/* banner section*/
+.banner{
+	background-image: url(../img/banner.jpg);
+background-size: cover;
+background-repeat:no-repeat; 
+height: 100vh;
+background-position:center; 
+
+}
+
+.social-media{
+text-align:center; 
+display: inline-block;
+list-style: none;
+}
+
+.social-media ul li a  {
+ font-size: 22px;
+height:60px; 
+width:60px; 
+background:#146BDF; 
+border-radius:100% 
+text-align center;
+line-height: 60px;
+color: white 
+
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
